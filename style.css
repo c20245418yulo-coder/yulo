@@ -1,0 +1,31 @@
+body {
+    background-color:rgb(233, 218, 176);
+    line-height: 1.6;
+}
+
+h2{
+    color: rgb(190, 23, 51);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibre, 'Trebuchet MS', sans-serif';
+
+}
+header {
+    border-bottom: 1px solid  rgb(202, 75, 75);
+    padding: 2px;
+    margin-bottom: 6px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+ h2{
+    color:blueviolet(99, 6, )
+
+
+ }
