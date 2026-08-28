@@ -67,3 +67,10 @@ main section {
         color: rgb(72, 255, 0);
     }
 }
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 100px;
+        color: rgb(8, 207, 75);
+    }
+}
