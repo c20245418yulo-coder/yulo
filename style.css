@@ -1,45 +1,45 @@
-body {
-    background-color:rgb(238, 127, 164);
-    line-height: 1.6;
+body{
+    text-align: center;
 }
 
-h2{
-    color: rgb(8, 12, 240);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibre, 'Trebuchet MS', sans-serif';
-
-}
-header {
-    border-bottom: 1px solid  rgb(216, 213, 10);
-    padding: 2px;
-    margin-bottom: 6px;
+ul{
+    list-style:name;
 }
 
-nav ul{
-    list-style: none;
+nav{
     display: flex;
-    gap: 1rem;
-}
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
 
-nav li {
-    display: inline-block;
-    margin: 0 10px;
 }
- h2{
-    color:blueviolet(99, 6, )
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+ main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px;
+    margin: 50px;
+ }
+
+ main section{
+    flex: 1;
+    min-width: 280px;
+    border: 2px solid red;
+    padding: 20px;
 
  }
- p{
-    color: red;
+
+ form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
  }
- .About-me {
-    color:rgb(5, 83, 134) ; 
-    font-size: 20px;
- }
- .My services{
-    color:aqua;
-    font-size: 30px;
- }
- .My contact {
-    color: brown;
-    font-size: 20px;
- }
+
+#services{
+    padding: 0 50px 50px 50px  ;
+}
