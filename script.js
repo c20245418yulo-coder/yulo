@@ -1,52 +1,56 @@
-console. log("Hello, World!");
+console.log("Hello world.");
 console.log("From script.js file.");
 
 const myName = "Miles";
 let age = 20;
-age = 21;
-let myNumber = 9105794473;
+const number = "09052117958";
 const address = "Basag 3";
 
-
-console.log(`My name is ${myName}, ${age} years old.`);
-console.log(`Number:${myNumber}.`);
-console.log(`Address: ${address}.`);
+console.log(`Name: ${myName}`);
+console.log(`Age: ${age}`);
+console.log(`Number: ${number}`);
+console.log(`Address: ${address}`);
 console.log(67);
 
-
-function greet(greetings,name) {
-    if (Array.isArray(name)) {
-      name = name.join(", ");
-        
+function greet(greetings, names = []) {
+    if (Array.isArray(names)) {
+        names = names.join(", ");
     }
-    return `${greetings} sa enyu ${name}`;
+    return `${greetings} sa enyu ${names}`;
 }
-console.log(greet("mayung aga", ["Miles", "Bai", "Soy", "Tol", "Erp"]));
+console.log(greet("Mayung aga", ["Mark", "papalada", "yambot", "mamalada", "moew"]));
+
 
 const heading = document.querySelector("h1");
 heading.textContent = "Mansueto Yulo jr.";
-heading. style.color = "purple";
-heading. style.backgroundColor = "yellow";
-heading. style.fontSize = "100px";   
-console.log(heading);
+heading.style.color = "PURPLE";
+heading.style.backgroundColor = "YELLOW";
+heading.style.fontSize = "100px";
+console.log(heading.textContent);
+
+heading.addEventListener("click", function () {
+    heading.style.color = "RED";
+    console.log("Heading was clicked")
+})
 
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
 
-const projectHeading = document.querySelector("#projects h2");
-console.log(projectHeading);
+const projectsHeadingHeading = document.querySelector("#services h2");
+console.log(projectsHeadingHeading);
 
+const toggleButton = document.querySelector("#switch");
+const body = document.querySelector("body");
+let isOFF = false;
 
+toggleButton.addEventListener("click", function () {
+    isOFF = !isOFF;
 
-   
-
-  
-
-
-
-
-
-
-
-
-
+    if (isOFF) {
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+    } else {
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+    }
+})
