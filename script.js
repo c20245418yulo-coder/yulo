@@ -11,7 +11,26 @@ const address = "Basag 3";
 console.log(`My name is ${myName}, ${age} years old.`);
 console.log(`Number:${myNumber}.`);
 console.log(`Address: ${address}.`);
-console.log(` ${67}`);
+console.log(67);
+
+
+function greet(greetings,name) {
+    if (Array.isArray(name)) {
+      name = name.join(", ");
+        
+    }
+    return `${greetings} sa enyu ${name}`;
+}
+console.log(greet("mayung aga", ["Miles", "Bai", "Soy", "Tol", "Erp"]));
+   
+
+  
+
+
+
+
+
+
 
 
 
