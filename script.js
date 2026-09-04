@@ -22,6 +22,17 @@ function greet(greetings,name) {
     return `${greetings} sa enyu ${name}`;
 }
 console.log(greet("mayung aga", ["Miles", "Bai", "Soy", "Tol", "Erp"]));
+
+const heading = document.querySelector("h1");
+console.log(heading);
+
+const contactHeading = document.querySelector("#contact h2");
+console.log(contactHeading);
+
+const projectHeading = document.querySelector("#projects h2");
+console.log(projectHeading);
+
+
    
 
   

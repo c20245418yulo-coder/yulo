@@ -1,65 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
-    <link  rel="stylesheet" href="style.css"
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>miles yulo</h1>
+    <h1>Miles Yulo</h1>
+
     <header>
         <nav>
             <span>c20245418.yulo@csav.edu.ph</span>
             <ul>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#services">Services</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
-            </nav>
+        </nav>
     </header>
+
     <main>
-       <section id="about">
-            <h2>About-me</h2>
-            <p class="About-me">Hello! I'm Miles, a web developer passionate about creating beautiful and functional websites.</p>
-             </section>
+        <section id="projects">
+            <h2 class="projects">My Projects</h2>
+            <p>Personal portfolio, payroll system, company website, startup website, and compliance monitoring system.
+            </p>
+        </section>
 
-             <section id="services">
-                <h2>My Services</h2>
-                <p>Display the different services that I can offer.</p>
-            </section>
+        <section id="services">
+            <h2 class="services">My Services</h2>
+            <p>Website Creation, System Creation, AI Automation, Database Management, Project Management, Systems
+                Analyst</p>
+        </section>
 
-            <section id="contacts">
-                <h2>Contact me</h2>
-                <p>I provides my contact information so visitors can reach me.</p>
-               <form action="#">
-                <label for="name">Name:</label>
+        <section id="contact">
+            <h2 class="contact">Let's build together!</h2>
+            <form action="#">
+                <!-- Name -->
+                <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
 
-               
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <!-- Email -->
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
 
-                <label for="message">Message:</label>
-                <textarea  name="message"id="message" name="message" rows="5" required></textarea>
+                <!-- Message -->
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="5" required></textarea>
 
-                 <button type="submit">Send Message</button>
-                
-
-               </form>
-                    
-                </form> 
-                
-            </section>
-            <script src="script.js"></script>
-                                           
+                <!-- Submit -->
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
