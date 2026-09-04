@@ -24,6 +24,7 @@ function greet(greetings,name) {
 console.log(greet("mayung aga", ["Miles", "Bai", "Soy", "Tol", "Erp"]));
 
 const heading = document.querySelector("h1");
+heading.textContent = "Mansueto Yulo jr.";
 console.log(heading);
 
 const contactHeading = document.querySelector("#contact h2");
@@ -31,6 +32,7 @@ console.log(contactHeading);
 
 const projectHeading = document.querySelector("#projects h2");
 console.log(projectHeading);
+
 
 
    
